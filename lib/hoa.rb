@@ -14,7 +14,7 @@ hoa = {
   :jetsons => ["George", "Jane", "Judy", "Elroy"]
 }
 
-hoa[:show] << name
+hoa[:show].push(name)
 
 hoa
 end
