@@ -15,8 +15,6 @@ hoa = {
   :jetsons => ["George", "Jane", "Judy", "Elroy"]
 }
 
-hoa[:show].push(name)
-
 hoa
 binding.pry
 end
